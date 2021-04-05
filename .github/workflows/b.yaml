@@ -1,0 +1,16 @@
+name: 'B'
+
+on:
+  push:
+    branches: ['main']
+    paths:
+      - .github/workflows/b.yaml
+
+jobs:
+  a:
+    runs-on: 'ubuntu-20.04'
+    name: 'Workflow B'
+    steps:
+      - name: B
+        run: |
+          echo B
