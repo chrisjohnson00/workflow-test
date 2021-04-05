@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: B
         run: |
-          echo B
+          echo B2
